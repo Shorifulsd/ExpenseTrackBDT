@@ -1,0 +1,21 @@
+# Set default behavior to automatic text/binary detection.
+* text=auto
+
+# Bash scripts must keep LF (Unix-style) line endings.
+gradlew text eol=lf
+*.sh text eol=lf
+
+# Batch scripts must keep CRLF (Windows-style) line endings.
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Binary files must not undergo CRLF conversion.
+*.jar binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.gif binary
+*.ico binary
+*.keystore binary
+*.jks binary
