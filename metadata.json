@@ -1,0 +1,6 @@
+{
+  "name": "Expense Tracker",
+  "description": "A premium glassmorphic offline Expense Tracker customized for Bangladeshi Taka (৳). Features a fast shopping-list style Quick Entry page, detailed analytics, monthly budgeting, and category expense management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
